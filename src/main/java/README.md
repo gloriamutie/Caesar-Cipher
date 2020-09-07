@@ -22,7 +22,7 @@ To run the program in the terminal you can use 'gradle run' command
 | Behaviour       | Input                |  Output
 |-----------------|----------------------|----------------------------|
 | Encrypts texts  |Input any string      |Displays the encrypted text |               
-|-----------------|----------------------|----------------------------|               
+|                 |                      |                            |               
 |Decrypts encrypted|   Input string      |Displays the decrypted text |
 |    string       |                      |                            |
 |                 |                      |                            |
