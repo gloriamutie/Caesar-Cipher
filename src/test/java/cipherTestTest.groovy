@@ -1,2 +1,0 @@
-class cipherTestTest extends GroovyTestCase {
-}
