@@ -25,7 +25,7 @@ To run the program in the terminal you can use 'gradle run' command
 |                 |                      |                            |               
 |Decrypts encrypted|   Input string      |Displays the decrypted text |
 |    string       |                      |                            |
-|                 |                      |                            |
+                                                              
 
 
 # Technologies used
