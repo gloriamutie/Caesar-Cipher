@@ -35,21 +35,21 @@ public class Cipher {
         return (char) (shifted + asciiShift);
     }
 
-    // Here we Rotate a string k-positions
+    // Rotate a string k-positions
     public  String myCipher() {
-        StringBuilder sb = new StringBuilder();
+        StringBuilder stringbuilder = new StringBuilder();
         for (int i = 0; i < mText.length(); i++) {
             if(mText.charAt(i) == ' ')
             {
-                sb.append(" ");
+                stringbuilder.append(" ");
             }
             else
             {
-                sb.append(myCipher(mText.charAt(i), mShift));
+                stringbuilder.append(myCipher(mText.charAt(i), mShift));
             }
 
         }
-        return sb.toString();
+        return stringbuilder.toString();
     }
 }
 
